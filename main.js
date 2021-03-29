@@ -1,5 +1,3 @@
-
-
 const mixedMessages = {
  array1 : ['If you have to learn about alpacas, you might as well ', 'In order to gain intelligence ', 'If you need more money ', 'When you\'re feeling down '],
  array2 : ['write a book because ', 'burn down your house ', 'talk to your mum because ', 'get bangs because ', 'go to the library because ', 'move at a faster average speed because '],
@@ -13,10 +11,3 @@ const mixedMessages = {
 return `${this.array1[randOne]}${this.array2[randTwo]}${this.array3[randThree]}`
  },
 };
-
-console.log(mixedMessages.generateRandomQuote());
-console.log(mixedMessages.generateRandomQuote());
-console.log(mixedMessages.generateRandomQuote());
-console.log(mixedMessages.generateRandomQuote());
-console.log(mixedMessages.generateRandomQuote());
-console.log(mixedMessages.generateRandomQuote());
